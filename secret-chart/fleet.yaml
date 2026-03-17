@@ -1,0 +1,20 @@
+diff:
+  comparePatches:
+    - apiVersion: v1
+      kind: Secret
+      name: secret-one
+      namespace: fleet-secret-test
+      operations:
+        - op: ignore
+    - apiVersion: v1
+      kind: Secret
+      name: secret-two
+      namespace: fleet-secret-test
+      operations:
+        - op: ignore
+    - apiVersion: v1
+      kind: Secret
+      name: secret-three
+      namespace: fleet-secret-test
+      operations:
+        - op: ignore
