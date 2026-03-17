@@ -1,3 +1,5 @@
+helm:
+  takeOwnership: true
 diff:
   comparePatches:
     - apiVersion: v1
