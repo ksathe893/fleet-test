@@ -4,7 +4,7 @@ diff:
   comparePatches:
     - apiVersion: v1
       kind: Secret
-      name: secret-one
+      name: secret-three
       namespace: fleet-secret-test
       operations:
         - op: ignore
@@ -16,7 +16,7 @@ diff:
         - op: ignore
     - apiVersion: v1
       kind: Secret
-      name: secret-three
+      name: secret-one
       namespace: fleet-secret-test
       operations:
         - op: ignore
