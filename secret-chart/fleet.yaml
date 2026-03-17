@@ -1,8 +1,0 @@
-diff:
-  comparePatches:
-    - apiVersion: v1
-      kind: Secret
-      name: existing-secret
-      namespace: fleet-secret-test
-      operations:
-      - {"op":"ignore"}
